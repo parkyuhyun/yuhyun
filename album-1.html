@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        *{margin:0;padding:0;}
+        #wrap{width:100%;}
+        #margin_wrap{margin:0 auto;width: 1920px;}
+
+
+        body {
+
+            width: 1100px;
+            margin: 0 auto;
+            font-family: "pretendard";
+            background-color: rgb(0, 0, 0);
+            background-repeat: no-repeat;
+            background-position: top center;
+            background-size: cover;
+            background-attachment: fixed;
+            color: white;
+            }
+
+
+        header {
+            width:1800px;height:80px;         
+            position: sticky;
+            top: 0px;
+            background-color: black;
+            }
+
+    
+        #logo {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        nav {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        font-family: 'pretendard';
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+        position: sticky;
+        top: 0px;
+        margin-right:700px;
+        }
+
+        nav ul li { 
+        list-style-type: none;
+        display: inline-block;
+        padding-inline: 40px;
+        padding-top: 40px;
+        color: white;
+        display:inline-block; 
+        margin:0;
+        text-transform:uppercase; 
+        }        
+
+
+        nav ul li a { 
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        }
+
+
+        nav ul li:after {
+        display:block;
+        content: '';
+        border-bottom: solid 2px #ed4f9a;  
+        transform: scaleX(0);  
+        transition: transform 250ms ease-in-out;
+        color
+        }
+
+        nav ul li:hover:after { transform: scaleX(1); }
+
+
+
+        #footer {
+            color:white;
+
+             height: 130px; width: 1800px;
+            font-size: 13px;
+        }
+
+        h3 {
+            color: rgb(29, 176, 255);
+        }
+
+  
+
+        #aside {
+            float: left;
+            width: 240px;
+            color: white;
+            margin-top: 120px;
+
+        }
+
+        #section {
+            text-align: center;
+           
+            margin-top: 0px;
+            font-size: 15px;
+        }
+
+        #main {
+            float: center;
+            margin-top: 60px;
+            text-align: center;
+            font-size: 25px;
+            color: #ed4f9a;
+            font-weight: bold;
+        
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        #v_menu {
+            
+        }
+        #v_menu li {
+            padding: 10px;
+        }
+        li {
+            list-style-type: none;
+        }
+
+        a{color:fff;}
+        a:link {text-decoration: none; color: rgb(255, 255, 255);}
+        a:visited {text-decoration: none; color: rgb(255, 255, 255);}
+        a:active {text-decoration: none; color: rgb(255, 255, 255);}
+        a:hover {text-decoration: none; color: #ed4f9a;}
+
+
+        h5 {
+            font-size: 12px;
+        }
+
+        #b {
+            font-weight: bold;
+            color: #ed4f9a;
+        }
+
+        #b_1 {
+            font-weight: bold;
+            color: #ed4f9a;
+            font-size: 15px;
+        }
+
+        b {
+            font-weight: bold;
+            font-size: 15px;
+            color: #ed4f9a;
+        }
+
+        
+
+
+
+
+    </style>
+
+
+
+</head>
+<body>
+        
+        <div id="logo">
+            <a href="index.html"> <img src="header-logo.png" width="140px"></a>
+        </div>
+
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="about.html">About</div></li></a>
+                    <li><a href="album.html"><div id="b">Album</div></li></a>
+                    <li><a href="concert.html">Concert</li></a>
+                    <li><a href="photo.html">Photo</li></a>
+                    <li><a href="video.html">Video</li></a>
+                </ul>
+            </nav>
+      </header>
+
+      <div class="clear"></div>
+
+      <div id="main">
+
+        <a href="album.html"><img src="1ver.jpeg" width="400px"></a><br>
+        <audio src="PINKTOP-2-The Volunteers.mp3" autoplay controls loop ></audio>
+        <br><br>
+     
+        The Volunteers</div>
+        <br><br>
+
+        <div id="section">
+            <b>Track 1</b> Violet<br><br>
+            <h5>TITLE</h5><b>Track 2</b> PINKTOP<br><br> 
+            <h5>TITLE</h5><b>Track 3</b> Let me go! <br><br>
+            <b>Track 4</b> Time to fight back in my way<br><br>
+            <b>Track 5</b> Radio<br><br>
+            <b>Track 6</b> Crap<br><br>
+            <b>Track 7</b> Nicer<br><br>
+            <b>Track 8</b> Medicine<br><br>
+            <b>Track 9</b> S.A.D<br><br>
+            <b>Track 10</b> Summer<br><br>
+
+
+
+         </div>
+
+    
+
+
+
+         <br><br><br>
+
+   
+
+
+         <br><br><br><br><br><br><br><br><br><br>
+
+
+      <div id="footer">
+        <h3>BLUEVINYL</h3><br>
+        서울특별시 마포구 서교동 와우산로<br>
+        ©copyright; parkyuhyun All Right Reserved
+
+      </div>
+
+        
+</body>
+</html>
